@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RechargeCategories" >
+
+    <RadioGroup
+        android:id="@+id/user_category_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/btn_recharge_self"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/self_recharge"
+            android:textSize="20sp"
+            android:onClick="onRadioButtonClicked"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+        <RadioButton
+            android:id="@+id/btn_recharge_friend"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/recharge_for_a_friend"
+            android:textSize="20sp"
+            android:onClick="onRadioButtonClicked"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="Continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/recharge" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

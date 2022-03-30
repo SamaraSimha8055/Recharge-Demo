@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927032753209",
+    "project_id": "recharge-demo-a770d",
+    "storage_bucket": "recharge-demo-a770d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927032753209:android:eeb6c591b7577d10c5e1e8",
+        "android_client_info": {
+          "package_name": "com.example.rechargedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927032753209-ct24qq1icb6311hud9ic89ka4b7rm2vu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA71JXU06FN7a5d09n4Hp6fKFWMYDyR1n4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927032753209-ct24qq1icb6311hud9ic89ka4b7rm2vu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
